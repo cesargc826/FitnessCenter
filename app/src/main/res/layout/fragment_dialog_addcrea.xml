@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:background="#599AC6"
+    android:orientation="vertical"
+    tools:context=".DialogoAddProte">
+
+    <TextView
+        android:id="@+id/TxtTituloDialogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:text="Añadir al inventario"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:text="Seleccione la marca"
+            android:paddingEnd="15dp"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+        <NumberPicker
+            android:id="@+id/marca"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/aladin"
+            android:theme="@style/AppTheme.Picker"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:text="Ingrese la cantidad"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+
+        android:id="@+id/editTxtCant"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:hint="Ingrese aqui"
+        android:inputType="number"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/aladin"
+        android:text="Precio"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TxtPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/aladin"
+        android:text="$0"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BtnComprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Añadir"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/BtnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botones"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Salir"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivitySesion"
+    android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="239dp"
+                    app:srcCompat="@drawable/logobueno" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:fontFamily="@font/aladin"
+                    android:gravity="center"
+                    android:text="Gimnasio"
+                    android:textColor="#FFFFFF"
+                    android:textSize="48sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Usuario"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="24sp" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:id="@+id/tilEmail"
+                    android:hint="Correo"
+                    app:boxStrokeColor="#4FB0DC"
+                    android:textColorHint="#FFF"
+                    app:startIconDrawable="@drawable/usuario"
+                    android:layout_gravity="center"
+                    android:layout_width="234dp"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tilEmail_et"
+                        android:textColor="#FFF"
+                        android:inputType="textEmailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Contraseña"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="24sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:id="@+id/tilPassword"
+                    android:hint="Contraseña"
+                    app:boxStrokeColor="#4FB0DC"
+                    android:textColorHint="#FFF"
+                    app:endIconMode="password_toggle"
+                    app:startIconDrawable="@drawable/password"
+                    app:counterEnabled="true"
+                    android:layout_gravity="center"
+                    android:layout_width="234dp"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tilPassword_et"
+                        android:textColor="#FFF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp" />
+
+                <Button
+                    android:id="@+id/btnIniciar"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/botones"
+                    android:onClick="Iniciar"
+                    android:text="Iniciar sesión"
+                    android:textSize="18sp"
+                    android:textColor="#FFF"
+                    app:backgroundTint="@null" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

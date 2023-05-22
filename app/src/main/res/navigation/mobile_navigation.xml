@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fitnesscenter.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.fitnesscenter.ui.gallery.GalleryFragment"
+        android:label="@string/menu_inventario"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.fitnesscenter.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/creatinaFragment"
+        android:name="com.example.fitnesscenter.CreatinaFragment"
+        android:label="@string/menu_creatina"
+        tools:layout="@layout/fragment_creatina" />
+    <fragment
+        android:id="@+id/prentrenosFragment"
+        android:name="com.example.fitnesscenter.PrentrenosFragment"
+        android:label="@string/menu_preentreno"
+        tools:layout="@layout/fragment_prentrenos" />
+    <fragment
+        android:id="@+id/aguaFragment"
+        android:name="com.example.fitnesscenter.AguaFragment"
+        android:label="@string/menu_agua"
+        tools:layout="@layout/fragment_agua" />
+    <fragment
+        android:id="@+id/termogenicosFragment"
+        android:name="com.example.fitnesscenter.TermogenicosFragment"
+        android:label="@string/menu_termogenico"
+        tools:layout="@layout/fragment_termogenicos" />
+    <fragment
+        android:id="@+id/egreso"
+        android:name="com.example.fitnesscenter.Egreso"
+        android:label="Dinero"
+        tools:layout="@layout/fragment_egreso" />
+
+    <fragment
+        android:id="@+id/rutina"
+        android:name="com.example.fitnesscenter.RutinaFragment"
+        android:label="Rutina"
+        tools:layout="@layout/fragment_rutina" />
+
+</navigation>

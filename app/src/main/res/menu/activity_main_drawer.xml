@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/casa"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/rutina"
+            android:icon="@drawable/inventario"
+            android:title="Rutina" />
+        <!--<item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/proteinalogo"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/creatinaFragment"
+            android:icon="@drawable/creatine"
+            android:title="@string/menu_creatina" />
+        <item
+            android:id="@+id/prentrenosFragment"
+            android:icon="@drawable/preentreno"
+            android:title="@string/menu_preentreno" />-->
+        <item
+            android:id="@+id/aguaFragment"
+            android:icon="@drawable/agua"
+            android:title="Alimentacion" />
+        <item
+            android:id="@+id/termogenicosFragment"
+            android:icon="@drawable/termogenicos"
+            android:title="Recetas" />
+
+        <!--<item
+            android:id="@+id/egreso"
+            android:icon="@drawable/dinero"
+            android:title="Dinero" />-->
+
+    </group>
+</menu>
