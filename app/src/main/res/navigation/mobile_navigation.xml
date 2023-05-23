@@ -54,4 +54,10 @@
         android:label="Rutina"
         tools:layout="@layout/fragment_rutina" />
 
+    <fragment
+        android:id="@+id/alimentacion"
+        android:name="com.example.fitnesscenter.AlimentacionFragment"
+        android:label="Rutina"
+        tools:layout="@layout/fragment_alimentacion" />
+
 </navigation>
