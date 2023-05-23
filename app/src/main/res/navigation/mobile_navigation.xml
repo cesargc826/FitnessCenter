@@ -57,7 +57,7 @@
     <fragment
         android:id="@+id/alimentacion"
         android:name="com.example.fitnesscenter.AlimentacionFragment"
-        android:label="Rutina"
+        android:label="Alimentacion"
         tools:layout="@layout/fragment_alimentacion" />
 
 </navigation>

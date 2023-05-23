@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
         TextView navUsername = (TextView) headerView.findViewById(R.id.txtUsuario);
-        navUsername.setText("Usuario");
+        navUsername.setText("");
 
         db = Room.databaseBuilder(getApplicationContext(), BDCaja.class, "Caja").allowMainThreadQueries().build();
 
