@@ -52,7 +52,7 @@ public class RutinaFragment extends Fragment {
                 "Leg extension 4/12-8 (Drop sets)\n" +
                 "\n" +
                 "Pantorrilla en máquina 4/25-30", R.drawable.pierna_rutina));
-        items.add(new ItemList("Espalda", "Calenamiento 10 - 15 minutos\n" +
+        items.add(new ItemList("Espalda", "Calentamiento 10 - 15 minutos\n" +
                 "\n" +
                 "Remo con barra 4/8-10 \n" +
                 "Pullover con soga 4/12-15 \n" +
@@ -62,7 +62,7 @@ public class RutinaFragment extends Fragment {
                 "\n" +
                 "Remo con mancuernas 4/10\n" +
                 "Pulldown neutro 4/10", R.drawable.espalda_rutina));
-        items.add(new ItemList("Brazo", "Calenamiento 10 - 15 minutos\n" +
+        items.add(new ItemList("Brazo", "Calentamiento 10 - 15 minutos\n" +
                 "\n" +
                 "Curl de bicep 4/8-12\n" +
                 "Dips 4/failure\n" +
@@ -72,7 +72,7 @@ public class RutinaFragment extends Fragment {
                 "\n" +
                 "Predicador 4/8-12\n" +
                 "Kickback 4/10-12", R.drawable.brazo_rutina));
-        items.add(new ItemList("Hombro", "Calenamiento 10 - 15 minutos\n" +
+        items.add(new ItemList("Hombro", "Calentamiento 10 - 15 minutos\n" +
                 "\n" +
                 "Press miltar 4/8-10\n" +
                 "Facepull 4/12-15\n" +

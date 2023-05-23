@@ -25,7 +25,7 @@
             android:icon="@drawable/preentreno"
             android:title="@string/menu_preentreno" />-->
         <item
-            android:id="@+id/aguaFragment"
+            android:id="@+id/alimentacion"
             android:icon="@drawable/agua"
             android:title="Alimentacion" />
         <item
