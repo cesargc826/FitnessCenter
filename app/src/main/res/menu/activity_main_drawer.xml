@@ -29,7 +29,7 @@
             android:icon="@drawable/agua"
             android:title="Alimentacion" />
         <item
-            android:id="@+id/termogenicosFragment"
+            android:id="@+id/recetas"
             android:icon="@drawable/termogenicos"
             android:title="Recetas" />
 

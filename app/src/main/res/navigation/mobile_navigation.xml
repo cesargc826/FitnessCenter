@@ -60,4 +60,10 @@
         android:label="Alimentacion"
         tools:layout="@layout/fragment_alimentacion" />
 
+    <fragment
+        android:id="@+id/recetas"
+        android:name="com.example.fitnesscenter.RecetasFragment"
+        android:label="Recetas"
+        tools:layout="@layout/fragment_recetas" />
+
 </navigation>
