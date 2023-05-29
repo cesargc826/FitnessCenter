@@ -37,7 +37,7 @@ public class RecetasFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        root = inflater.inflate(R.layout.fragment_rutina, container, false);
+        root = inflater.inflate(R.layout.fragment_recetas, container, false);
 
         rvLista = (RecyclerView) root.findViewById(R.id.rvLista);
         addInventario = (FloatingActionButton) root.findViewById(R.id.BtnAgregar);
